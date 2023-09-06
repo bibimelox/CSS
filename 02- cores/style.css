@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     /* Altura em que o CSS vai alcançar */
@@ -9,23 +9,26 @@
 
 body {
     background-image: linear-gradient(to right, #F2D7B6, #A68C6D);
+    /* degradê nas cores */
 }
 
 main {
     /* Main é uma espécie de div */
 
-    /* cor da main */
     background-color: white;
-    /* largura que vai ocupar a tela */
+    /* cor da main */
     width: 600px;
-    /* margem do conteúdo da main */
+     /* largura que vai ocupar a tela */
     padding: 10px;
-    /* centralizar na tela */
+    /* margem do conteúdo da main */
     margin: auto;
-    /* Arredondamento da borda */
+    /* centralizar na tela */
     border-radius: 10px;
-    /* Sombreamento */
+    /* arredondamento da borda */
     box-shadow: 5px 5px 15px rgba(67, 45, 19, 0.441);
+    /* sombreamento */
+    overflow-y: scroll;
+    /* rolamento da main */
 }
 
 h1 {
