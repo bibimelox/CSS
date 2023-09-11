@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: #ff45f0;
+            /* links não visitados */
+            text-decoration: none;
+            /* para tirar a formatação dos links */
+            font-weight: bold;
+            /* negrito */
+        }
+
+        a:visited {
+            color:#9340dc;
+            /* links visitados */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* animação para quando passar o mouse por cima */
+            color: #ffaced;
+        }
+
+        a:active {
+            color:black;
+        }
+
+
+        /* 
+            Pseudo-Elemento é Antes ou Depois de todos os links aparece algo como por exemplo, um aviso do que se trata o link.
+
+            É usado :: para usar como elemento
+        */
+
+        a::after {
+            content: '[link]';
+            /* conteúdo elemento */
+            text-decoration: none;
+            /* tirar formatação */
+            font-weight: normal;
+            color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li>
+            <a href="https://github.com/bibimelox">Perfil no GitHub </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/bibimelox/CSS.git">Repositório de CSS no GitHub </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/bianca-melo-caetano/">Perfil no Linkedin </a>
+        </li>
+    </ul>
+    <p>Vídeo 22 [11:25]
+    </p>
+</body>
+</html>
