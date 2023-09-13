@@ -14,6 +14,8 @@ header {
 
 nav {
     background-color: #787878;
+    padding: 3px;
+    box-shadow: 5px 4px 6px 3px #0000006d;
 }
 
 nav > a {
@@ -31,11 +33,13 @@ main {
     background-color: #fff;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px 0px;
 }
 
 article {
     background-color: lightgrey;
     padding: 5px;
+    border-radius: 20px 0px;
 }
 
 aside {
@@ -46,6 +50,18 @@ footer {
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 1px;
+    padding: 4px;
     margin: 0px;
 }
+
+footer > p {
+    margin: 0px;
+}
+
+/* div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+} */
