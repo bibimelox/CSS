@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Signika:wght@500&display=swap');
 
 :root {
     --cor0: #F5F5F7;
@@ -15,8 +15,8 @@
     --cor7: #6E6E73;
 
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Signika', sans-serif;
-    --fonte-ios: 'Archivo Black', sans-serif;
+    --fonte-destaque:'Open Sans', sans-serif;
+    --fonte-apple: 'Roboto', sans-serif;
 }
 
 * {
@@ -38,10 +38,11 @@ header {
 
 header > h1 {
     color: var(--cor0);
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-apple);
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-shadow: 2px 4px 4px black;
+    font-weight: normal;
 }
 
 header > p {
@@ -51,6 +52,7 @@ header > p {
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
+    margin-bottom: 20px;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -62,10 +64,11 @@ nav {
 }
 
 nav > a {
-    color: white;
+    color: #cdcdcd;
+    font-family: var(--fonte-apple);
     text-decoration: none;  
     padding: 10px;
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 5px;
     transition-duration: 0.5s;
 }
@@ -89,7 +92,7 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 50px;
     background-color: var(--cor0);
     box-shadow: 0px 0px 10px #0000005f;
     border-radius: 0px 0px 10px 10px;
@@ -103,13 +106,14 @@ main img {
 
 main > article >  h1 {
     color: var(--cor4);
-    font-family: var(--fonte-ios);
-    font-size: 2em;
+    font-family: var(--fonte-apple);
+    font-size: 1.5em;
+    text-align: center;
 }
 
 main > article >  h2 {
     color: var(--cor1);
-    font-family: var(--fonte-ios);
+    font-family: var(--fonte-apple);
 }
 
 main p {
@@ -135,6 +139,72 @@ main strong {
     color: var(--cor5);
 }
 
+aside {
+    background-color: #dbdbdb;
+    padding: 10px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 1px 15px #0000006d;
+    text-align: justify;
+}
+
+aside > h3 {
+    background-color: var(--cor7);
+    font-family: var(--fonte-destaque);
+    color: var(--cor0);
+    padding: 6px;
+    padding-left: 15px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    list-style-type: '\2754\00a0\00a0';
+    line-height: 2em;
+    padding: 10px;
+}
+
+aside > p > a {
+    font-style: normal;
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -50px 30px -50px;
+    padding: 20px;
+    padding-bottom: 59.9%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 footer {
     background-color: var(--cor2);
+    text-align: center;
+    color: var(--cor0);
+    font-size: 0.8em;
+    padding: 5px;
+    font-family: var(--fonte-padrão);
+    letter-spacing: 1px;
+}
+
+footer > p > a {
+    color: var(--cor7);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer > p > a:hover {
+    color: blueviolet;
+}
+
+footer > p > strong {
+    font-weight: bolder;
 }

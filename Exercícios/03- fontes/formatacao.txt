@@ -1,0 +1,21 @@
+
+
+TEXT
+
+
+Text-transform – Forma das letras.
+- Propriedade de transformação de texto.
+
+
+
+Text-transform:none;
+– Sem letras maiúsculas.
+
+Text-transform:capitalize;
+- Transforma o primeiro caractere de cada palavra em maiúsculas
+
+text-transform:uppercase;
+- Transforma todos os caracteres em maiúsculas
+
+Text-transform:lowercase;
+ – Transforma todos os caracteres em minúsculas
