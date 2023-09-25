@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
     min-height: 200px;
     text-align: center;
     padding-top: 50px;
@@ -60,7 +60,6 @@ header > p {
 nav {
     background-color: var(--cor2);
     padding: 10px;
-    
 }
 
 nav > a {
