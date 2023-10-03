@@ -172,10 +172,6 @@ header>.superior {
     padding: 90px 4%;
 }
 
-.especialidades .flex {
-    gap: 50px;
-}
-
 .especialidades h3 {
     font-family: var(--fonte-destaque);
     font-size: 1.7em;
@@ -185,7 +181,7 @@ header>.superior {
 
 .especialidades .esp-box {
     color: white;
-    padding: 40px 4%;
+    padding: 40px;
     font-weight: normal;
     margin-top: 40px;
     border-radius: 20px;
@@ -195,6 +191,12 @@ header>.superior {
 .especialidades .esp-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px #cd98fe9c;
+}
+
+.especialidades .flex a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 40px;
 }
 
 .especialidades .esp-box i {
