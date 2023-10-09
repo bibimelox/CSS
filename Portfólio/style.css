@@ -240,6 +240,10 @@ header>.superior {
     line-height: 22px;
 }
 
+.redes-sociais a {
+    text-decoration: none;
+}
+
 .redes-sociais button {
     font-size: 35px;
     background-color: black;
