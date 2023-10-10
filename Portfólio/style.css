@@ -13,7 +13,8 @@
     --cinza-claro: #b1b1b1;
     --linkedin: #0B66C3;
     --instagram: #F5008C;
-    --roxo: #963EC6;
+    --roxo: #B955F3;
+    --roxo02: #963EC6;
 
 
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
@@ -64,13 +65,17 @@ header>.superior {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 35px;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
     z-index: 1;
 }
+
+/* .superior .logo {
+    padding: 10px;
+} */
 
 .menu>a {
     color: #cdcdcd;
@@ -112,8 +117,8 @@ header>.superior {
 /* ESTILO DA MAIN */
 
 .cont-principal {
-    padding: 90px 4%;
-    margin-top: 50px;
+    padding: 90px 7%;
+    margin-top: 90px;
 }
 
 .cont-principal .flex {
@@ -126,7 +131,7 @@ header>.superior {
 .cont-principal h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
     line-height: 40px;
     /* linhas grudadas */
@@ -134,7 +139,7 @@ header>.superior {
 
 .cont-principal h1 span {
     color: var(--roxo);
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .cont-principal p {
@@ -172,6 +177,10 @@ header>.superior {
     padding: 90px 4%;
 }
 
+.especialidades h2 {
+    font-weight: normal;
+}
+
 .especialidades h3 {
     font-family: var(--fonte-destaque);
     font-size: 1.7em;
@@ -183,7 +192,7 @@ header>.superior {
     color: white;
     padding: 40px;
     font-weight: normal;
-    margin-top: 40px;
+    margin-top: 5px;
     border-radius: 20px;
     transition-duration: 0.5s;
 }
@@ -242,6 +251,7 @@ header>.superior {
 
 .redes-sociais a {
     text-decoration: none;
+
 }
 
 .redes-sociais button {
@@ -249,7 +259,7 @@ header>.superior {
     background-color: black;
     border: none;
     padding: 10px;
-    margin: 40px 5px 0px 0px;
+    margin: 60px 20px 0px 20px;
     cursor: pointer;
 }
 
@@ -291,10 +301,10 @@ header>.superior {
 
     /* conteúdos destaque */
     .cont-principal {
-        padding: 30px 4%;
-        margin-top: 50px;
+        padding: 18px;
+        margin: 100px 10px 0px 10px;
     }
-
+    
     .cont-principal h1 {
         font-size: 25px;
     }
@@ -306,6 +316,7 @@ header>.superior {
 
     .cont-principal .img-flut img {
         width: 100%;
+        margin: -15px 0px 0px 0px;
     }
 
     .cont-principal .flex {
@@ -318,34 +329,41 @@ header>.superior {
         padding: 100px 4%;
     }
 
+    .especialidades h2 {
+        margin: 10px 0px -18px 0px;
+        padding: 5px;
+        font-weight: normal;
+    }
+
     .especialidades .esp-box {
-        padding: 30px;
-        margin: 15px;
+        padding: 20px;
+        margin: 5px;
     }
 
     .especialidades .esp-box i {
-        font-size: 35px;
+        font-size: 40px;
     }
 
 
-    /* SOBRE MIM */
+    /* sobre mim */
 
     .sobre-mim {
-        padding: 15px;
+        padding: 40px;
+        margin: -60px 0px -15px 0px;
     }
 
     .txt-sobre h2 {
         font-size: 25px;
-        line-height: 28px;
+        line-height: 29px;
+        margin-bottom: 40px;
     }
 
-    .redes-sociais {
-        text-align: center;
+    .redes-sociais button {
+        padding: 10px;
+        margin: 60px 15px 0px 15px;
     }
 
     .sobre-mim .img-sobre{
         width: 100%;
-        margin-bottom: -30px;
-        text-align: center;
     }
 }
