@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.estrutura {
+    background-color: #963EC6;
+    list-style-type: none;
+    margin: 5px;
+    padding: 1px;
+}
+
+.menu :visited{
+    background-color: #B955F3;
+}
+
+.estrutura .menu {
+    text-decoration: none;
+    color: white;
+}
+
+.estrutura :hover {
+    background-color: #B955F3;
+    cursor: pointer;
+}
+
+.cada {
+    padding: 15px;
+}
+
+.estrutura :visited{
+    background-color: black;
+}
+
+.cada .botao {
+    background: none;
+    border: none;
+    color: white;
+    align-items: center;
+}
+
