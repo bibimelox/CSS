@@ -74,7 +74,7 @@ header>.superior {
     z-index: 1;
 }
 
-.menu> a {
+.menu ul >  a {
     color: #cdcdcd;
     font-family: var(--fonte-perspadrao);
     text-decoration: none;
@@ -85,7 +85,7 @@ header>.superior {
     margin: 0px 5px;
 }
 
-.menu>a:hover {
+.menu ul > a:hover {
     background-color: var(--roxo);
     color: white;
     display: inline-block;
